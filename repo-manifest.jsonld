@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/deedy5/primp/commit/84c1c45d614d2085192826409517e813ecf461f1",
       "git:hexsha": "84c1c45d614d2085192826409517e813ecf461f1",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T04:03:52.167180+00:00"
     },
     {
       "@id": "https://repolex.ai/r/deedy5/primp/commit/9891b0de6c28548c9719c6044874857b88c95ff2",

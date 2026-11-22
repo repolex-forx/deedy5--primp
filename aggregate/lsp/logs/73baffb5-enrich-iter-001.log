@@ -1,0 +1,93 @@
+[2026-11-22T17:45:35Z] === ENRICH ITERATION 1 START | repo=deedy5/primp sha=73baffb5 ===
+[2026-11-22T17:45:35Z] [iter=1] PHASE START: enrich repo=deedy5/primp sha=73baffb5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/73baffb5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/73baffb5d48174ec050d247a50a92eb9c1230ba2.nq.gz
+[2026-11-22T17:45:35Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T17:46:35Z] [iter=1] AST store loaded triples=6118979 load_secs=58 mem_mb=949 MB
+[2026-11-22T17:46:35Z] [iter=1] Step 2: Finding LSP targets mem_mb=949 MB
+[2026-11-22T17:46:48Z] [iter=1] LSP targets found call_sites=52825 imports=2348 extends=13 implements=1380 secs=13
+[2026-11-22T17:46:58Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=949 MB
+[2026-11-22T17:47:23Z] [iter=1] Position index built positions=397983 nodes_with_types=490421 secs=25 mem_mb=1180 MB
+[2026-11-22T17:47:23Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1180 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T17:47:23Z] [iter=1] Resolving target type target_type=call_site count=52825
+[2026-11-22T17:48:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=0 resolved=0 errors=0 current=crates/primp-hyper/src/proto/h1/role.rs
+[2026-11-22T17:56:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.5 files_done=1 resolved=844 errors=0 current=crates/primp-hyper/tests/client.rs
+[2026-11-22T18:02:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.7 files_done=2 resolved=1839 errors=0 current=crates/primp-hyper/src/proto/h1/dispatch.rs
+[2026-11-22T18:04:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.1 files_done=3 resolved=2010 errors=0 current=crates/primp-rustls/rustls/tests/api_ffdhe.rs
+[2026-11-22T18:05:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.2 files_done=4 resolved=2119 errors=0 current=crates/primp-reqwest/src/blocking/body.rs
+[2026-11-22T18:06:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=6 resolved=2497 errors=0 current=crates/primp-hyper-util/src/client/legacy/connect/http.rs
+[2026-11-22T18:10:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=7 resolved=2852 errors=0 current=crates/primp-hyper-util/src/server/graceful.rs
+[2026-11-22T18:14:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.7 files_done=9 resolved=3117 errors=0 current=crates/primp-rustls/rustls/src/conn/kernel.rs
+[2026-11-22T18:15:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.0 files_done=11 resolved=3310 errors=0 current=crates/primp-hyper-util/tests/proxy.rs
+[2026-11-22T18:17:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.2 files_done=14 resolved=3578 errors=0 current=crates/primp-rustls/rustls/tests/unbuffered.rs
+[2026-11-22T18:25:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.1 files_done=15 resolved=4247 errors=0 current=crates/primp-h2/tests/h2-tests/tests/flow_control.rs
+[2026-11-22T18:26:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.1 files_done=17 resolved=4503 errors=0 current=crates/primp-rustls/rustls/src/record_layer.rs
+[2026-11-22T18:27:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.7 files_done=18 resolved=4561 errors=0 current=crates/primp-hyper/src/error.rs
+[2026-11-22T18:28:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.1 files_done=19 resolved=4647 errors=0 current=crates/primp-hyper-util/src/client/legacy/pool.rs
+[2026-11-22T18:31:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.4 files_done=20 resolved=4987 errors=0 current=crates/primp-reqwest/tests/gzip.rs
+[2026-11-22T18:33:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.4 files_done=21 resolved=5169 errors=0 current=crates/primp-rustls/rustls/src/limited_cache.rs
+[2026-11-22T18:33:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.4 files_done=22 resolved=5298 errors=0 current=crates/primp-rustls/rustls/src/vecbuf.rs
+[2026-11-22T18:39:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.1 files_done=24 resolved=5714 errors=0 current=crates/primp-hyper/tests/server.rs
+[2026-11-22T18:54:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=69.1 files_done=25 resolved=7620 errors=0 current=crates/primp-rustls/rustls/tests/api.rs
+[2026-11-22T19:33:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.7 files_done=26 resolved=10792 errors=0 current=crates/primp-hyper-util/src/common/lazy.rs
+[2026-11-22T19:34:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.9 files_done=30 resolved=10914 errors=0 current=crates/primp-h2/src/hpack/encoder.rs
+[2026-11-22T19:37:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.3 files_done=31 resolved=11255 errors=0 current=crates/primp-hyper/src/headers.rs
+[2026-11-22T19:39:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.1 files_done=33 resolved=11577 errors=0 current=crates/primp-h2/tests/h2-support/src/prelude.rs
+[2026-11-22T19:40:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.7 files_done=35 resolved=11678 errors=0 current=crates/primp-reqwest/src/blocking/request.rs
+[2026-11-22T19:41:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.0 files_done=38 resolved=11786 errors=0 current=crates/primp-reqwest/tests/multipart.rs
+[2026-11-22T19:42:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.7 files_done=39 resolved=11888 errors=0 current=crates/primp-hyper/src/proto/h1/io.rs
+[2026-11-22T19:45:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.5 files_done=40 resolved=12140 errors=0 current=crates/primp-hyper-util/src/common/rewind.rs
+[2026-11-22T19:46:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=120.9 files_done=44 resolved=12310 errors=0 current=crates/primp-hyper/tests/support/mod.rs
+[2026-11-22T19:47:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=121.7 files_done=45 resolved=12463 errors=0 current=crates/primp-hyper-util/src/client/legacy/connect/capture.rs
+[2026-11-22T19:48:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.4 files_done=47 resolved=12602 errors=0 current=crates/primp-hyper-util/src/client/legacy/connect/proxy/tunnel.rs
+[2026-11-22T19:50:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.8 files_done=49 resolved=12803 errors=0 current=crates/primp-reqwest/src/async_impl/body.rs
+[2026-11-22T19:51:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.4 files_done=50 resolved=12914 errors=0 current=crates/primp-reqwest/src/async_impl/request.rs
+[2026-11-22T19:53:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=128.4 files_done=51 resolved=13205 errors=0 current=crates/primp-rustls/rustls/src/crypto/aws_lc_rs/ticketer.rs
+[2026-11-22T19:54:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.2 files_done=52 resolved=13373 errors=0 current=crates/primp/src/imp/mod.rs
+[2026-11-22T19:55:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.3 files_done=54 resolved=13526 errors=0 current=crates/primp-h2/tests/h2-tests/tests/hammer.rs
+[2026-11-22T19:59:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=133.9 files_done=56 resolved=13865 errors=0 current=crates/primp-reqwest/tests/redirect.rs
+[2026-11-22T20:02:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.7 files_done=57 resolved=14229 errors=0 current=crates/primp-rustls/rustls/src/error.rs
+[2026-11-22T20:02:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.4 files_done=59 resolved=14428 errors=0 current=crates/primp-python/src/async/client.rs
+[2026-11-22T20:04:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=138.7 files_done=60 resolved=14537 errors=0 current=crates/primp-hyper-util/src/service/glue.rs
+[2026-11-22T20:06:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.6 files_done=62 resolved=14719 errors=0 current=crates/primp-hyper/src/proto/h1/decode.rs
+[2026-11-22T20:08:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.9 files_done=63 resolved=15098 errors=0 current=crates/primp-rustls/rustls-test/src/lib.rs
+[2026-11-22T20:11:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=145.9 files_done=64 resolved=15407 errors=0 current=crates/primp/src/imp/opera/mod.rs
+[2026-11-22T20:12:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.8 files_done=65 resolved=15527 errors=0 current=crates/primp-h2/tests/h2-tests/tests/client_request.rs
+[2026-11-22T20:16:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=151.0 files_done=67 resolved=15755 errors=0 current=crates/primp-h2/src/hpack/table.rs
+[2026-11-22T20:18:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.5 files_done=68 resolved=15929 errors=0 current=crates/primp-reqwest/tests/support/server.rs
+[2026-11-22T20:21:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.6 files_done=70 resolved=16220 errors=0 current=crates/primp-hyper-util/src/client/legacy/client.rs
+[2026-11-22T20:24:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=159.1 files_done=71 resolved=16547 errors=0 current=crates/primp-h2/src/proto/streams/recv.rs
+[2026-11-22T20:29:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.3 files_done=72 resolved=16902 errors=0 current=crates/primp-h2/src/proto/streams/prioritize.rs
+[2026-11-22T20:33:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=167.8 files_done=73 resolved=17152 errors=0 current=crates/primp-rustls/rustls/src/conn.rs
+[2026-11-22T20:37:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=171.6 files_done=74 resolved=17414 errors=0 current=crates/primp-hyper-util/src/client/legacy/connect/dns.rs
+[2026-11-22T20:40:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=174.6 files_done=76 resolved=17720 errors=0 current=crates/primp-reqwest/tests/brotli.rs
+[2026-11-22T20:41:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=175.7 files_done=77 resolved=17896 errors=0 current=crates/primp-reqwest/tests/blocking.rs
+[2026-11-22T20:42:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=176.7 files_done=80 resolved=18106 errors=0 current=crates/primp-h2/tests/h2-tests/tests/prioritization.rs
+[2026-11-22T20:42:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=177.3 files_done=84 resolved=18289 errors=0 current=crates/primp-reqwest/src/proxy.rs
+[2026-11-22T20:45:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=179.9 files_done=85 resolved=18516 errors=0 current=crates/primp-h2/tests/h2-tests/tests/server.rs
+[2026-11-22T20:49:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=184.3 files_done=87 resolved=18977 errors=0 current=crates/primp-reqwest/tests/http3.rs
+[2026-11-22T20:51:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=185.9 files_done=89 resolved=19199 errors=0 current=crates/primp-h2/src/proto/streams/streams.rs
+[2026-11-22T20:58:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=193.2 files_done=90 resolved=19742 errors=0 current=crates/primp-reqwest/src/async_impl/multipart.rs
+[2026-11-22T21:00:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=195.3 files_done=91 resolved=20019 errors=0 current=crates/primp-rustls/rustls/src/client/client_conn.rs
+[2026-11-22T21:02:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=196.5 files_done=92 resolved=20110 errors=0 current=crates/primp-python/src/response.rs
+[2026-11-22T21:02:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=197.2 files_done=93 resolved=20350 errors=0 current=crates/primp-hyper/src/ext/mod.rs
+[2026-11-22T21:04:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=199.3 files_done=95 resolved=20506 errors=0 current=crates/primp-reqwest/src/wasm/response.rs
+[2026-11-22T21:06:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=200.9 files_done=97 resolved=20627 errors=0 current=crates/primp-rustls/rustls/src/crypto/aws_lc_rs/tls12.rs
+[2026-11-22T21:07:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=202.2 files_done=98 resolved=20734 errors=0 current=crates/primp-reqwest/tests/retry.rs
+[2026-11-22T21:08:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=203.2 files_done=99 resolved=20814 errors=0 current=crates/primp-rustls/rustls/src/compress.rs
+[2026-11-22T21:10:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=204.8 files_done=100 resolved=20985 errors=0 current=crates/primp-h2/tests/h2-support/src/mock.rs
+[2026-11-22T21:14:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=209.0 files_done=103 resolved=21372 errors=0 current=crates/primp-rustls/rustls/src/server/test.rs
+[2026-11-22T21:16:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=210.6 files_done=104 resolved=21505 errors=0 current=crates/primp-reqwest/tests/client.rs
+[2026-11-22T21:19:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=213.7 files_done=105 resolved=21799 errors=0 current=crates/primp-python/src/async/response.rs
+[2026-11-22T21:19:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=214.3 files_done=106 resolved=22086 errors=0 current=crates/primp-rustls/rustls/tests/server_cert_verifier.rs
+[2026-11-22T21:21:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=216.1 files_done=107 resolved=22221 errors=0 current=crates/primp-rustls/rustls/src/client/client_emulator.rs
+[2026-11-22T21:22:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=216.9 files_done=109 resolved=22308 errors=0 current=crates/primp-reqwest/src/async_impl/h3_client/dns.rs
+[2026-11-22T21:24:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=219.4 files_done=111 resolved=22471 errors=0 current=crates/primp-rustls/rustls/src/hash_hs.rs
+[2026-11-22T21:26:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=221.4 files_done=112 resolved=22592 errors=0 current=crates/primp-rustls/rustls/src/server/handy.rs
+[2026-11-22T21:27:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=222.0 files_done=113 resolved=22675 errors=0 current=crates/primp-h2/src/frame/headers.rs
+[2026-11-22T21:30:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=225.1 files_done=114 resolved=22981 errors=0 current=crates/primp-rustls/rustls/src/msgs/handshake.rs
+[2026-11-22T21:41:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=235.6 files_done=115 resolved=23635 errors=0 current=crates/primp-h2/src/hpack/decoder.rs
+[2026-11-22T21:42:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=237.3 files_done=116 resolved=23862 errors=0 current=crates/primp/src/imp/safari/mod.rs
+[2026-11-22T21:43:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=238.1 files_done=117 resolved=23988 errors=0 current=crates/primp-reqwest/tests/proxy.rs
+[2026-11-22T21:45:40Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=117 new_files_this_iter=117 mem_mb=1416 MB
+[2026-11-22T21:45:40Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/73baffb5d48174ec050d247a50a92eb9c1230ba2.nq.gz triples=228697
+[2026-11-22T21:45:42Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-22T21:45:42Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14405 elapsed_min=240.1 files_completed=117

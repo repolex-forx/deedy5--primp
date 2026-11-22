@@ -2344,6 +2344,10 @@
         "blob/bdc664a1b20828d3bc30d7429590d8d3ff814a5a.nq.gz",
         "blob/7a89aec4abeec111bc09f2184644906a8eec8c2b.nq.gz",
         "blob/3ed8cad56a6d63b632cc6e91e1cafddaff026b61.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/73baffb5d48174ec050d247a50a92eb9c1230ba2/chunk-001.nq.gz",
+        "aggregate/ast/73baffb5d48174ec050d247a50a92eb9c1230ba2/chunk-002.nq.gz"
       ]
     }
   ],

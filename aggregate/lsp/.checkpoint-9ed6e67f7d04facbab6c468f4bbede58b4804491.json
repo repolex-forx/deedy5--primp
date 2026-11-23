@@ -2,23 +2,33 @@
   "commit_sha": "9ed6e67f7d04facbab6c468f4bbede58b4804491",
   "completed_files": [
     "crates/primp-h2/src/hpack/decoder.rs",
+    "crates/primp-h2/src/hpack/huffman/mod.rs",
     "crates/primp-h2/src/hpack/table.rs",
     "crates/primp-h2/src/server.rs",
     "crates/primp-h2/tests/h2-tests/tests/client_request.rs",
     "crates/primp-h2/tests/h2-tests/tests/flow_control.rs",
+    "crates/primp-h2/tests/h2-tests/tests/server.rs",
+    "crates/primp-hyper-util/src/client/legacy/client.rs",
     "crates/primp-hyper-util/src/client/legacy/pool.rs",
     "crates/primp-hyper/src/client/conn/http2.rs",
+    "crates/primp-hyper/src/proto/h1/role.rs",
     "crates/primp-hyper/src/proto/h2/ping.rs",
     "crates/primp-hyper/src/proto/h2/server.rs",
     "crates/primp-hyper/src/proto/h2/upgrade.rs",
     "crates/primp-hyper/tests/server.rs",
     "crates/primp-python/src/async/response.rs",
     "crates/primp-reqwest/src/async_impl/client.rs",
+    "crates/primp-reqwest/src/async_impl/request.rs",
+    "crates/primp-reqwest/src/connect.rs",
+    "crates/primp-reqwest/src/proxy.rs",
     "crates/primp-rustls/rustls-test/src/lib.rs",
     "crates/primp-rustls/rustls/src/crypto/ring/tls12.rs",
     "crates/primp-rustls/rustls/src/msgs/handshake.rs",
+    "crates/primp-rustls/rustls/src/msgs/message_test.rs",
+    "crates/primp-rustls/rustls/src/server/tls13.rs",
     "crates/primp-rustls/rustls/src/x509.rs",
-    "crates/primp-rustls/rustls/tests/api.rs"
+    "crates/primp-rustls/rustls/tests/api.rs",
+    "crates/primp/src/imp/firefox/mod.rs"
   ],
   "completed_types": [],
   "stats": {
@@ -26,7 +36,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9ed6e67f7d04facbab6c468f4bbede58b4804491.nq.gz",
     "call_sites": 52822,
     "import_statements": 2349,
-    "call_targets_resolved": 9473,
+    "call_targets_resolved": 12281,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -40,5 +50,5 @@
     "extends_class_denormalized": 13,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1805
 }

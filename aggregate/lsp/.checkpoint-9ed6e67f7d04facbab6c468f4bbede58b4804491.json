@@ -2,10 +2,16 @@
   "commit_sha": "9ed6e67f7d04facbab6c468f4bbede58b4804491",
   "completed_files": [
     "crates/primp-h2/src/hpack/table.rs",
+    "crates/primp-h2/tests/h2-tests/tests/flow_control.rs",
     "crates/primp-hyper/src/client/conn/http2.rs",
     "crates/primp-hyper/src/proto/h2/ping.rs",
+    "crates/primp-hyper/src/proto/h2/upgrade.rs",
     "crates/primp-hyper/tests/server.rs",
-    "crates/primp-rustls/rustls/src/crypto/ring/tls12.rs"
+    "crates/primp-python/src/async/response.rs",
+    "crates/primp-rustls/rustls/src/crypto/ring/tls12.rs",
+    "crates/primp-rustls/rustls/src/msgs/handshake.rs",
+    "crates/primp-rustls/rustls/src/x509.rs",
+    "crates/primp-rustls/rustls/tests/api.rs"
   ],
   "completed_types": [],
   "stats": {
@@ -13,7 +19,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9ed6e67f7d04facbab6c468f4bbede58b4804491.nq.gz",
     "call_sites": 52822,
     "import_statements": 2349,
-    "call_targets_resolved": 5269,
+    "call_targets_resolved": 7533,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,

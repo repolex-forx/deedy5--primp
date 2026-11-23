@@ -1,0 +1,17 @@
+[2026-11-23T14:22:16Z] === ENRICH ITERATION 2 START | repo=deedy5/primp sha=a1dd8d42 ===
+[2026-11-23T14:22:16Z] [iter=2] PHASE START: enrich repo=deedy5/primp sha=a1dd8d42 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a1dd8d42-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a1dd8d4290b7cd0d9ecaa7685d32b8b155bb514a.nq.gz
+[2026-11-23T14:22:16Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-23T14:23:38Z] [iter=2] AST store loaded triples=6093489 load_secs=81 mem_mb=938 MB
+[2026-11-23T14:23:38Z] [iter=2] Step 2: Finding LSP targets mem_mb=938 MB
+[2026-11-23T14:23:50Z] [iter=2] LSP targets found call_sites=52634 imports=2367 extends=13 implements=1375 secs=12
+[2026-11-23T14:23:51Z] [iter=2] Loaded checkpoint partial graph triples=24319
+[2026-11-23T14:23:51Z] [iter=2] Primed enclosing-def cache from persisted triples entries=297
+[2026-11-23T14:23:59Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=938 MB
+[2026-11-23T14:24:22Z] [iter=2] Position index built positions=396501 nodes_with_types=488659 secs=23 mem_mb=1186 MB
+[2026-11-23T14:24:22Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1186 MB already_completed_types=[] already_completed_files=5
+[2026-11-23T14:24:22Z] [iter=2] Resolving target type target_type=call_site count=52634
+[2026-11-23T14:24:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.6 files_done=0 resolved=0 errors=0 current=crates/primp-rustls/rustls/tests/api.rs
+[2026-11-23T14:52:20Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=5 new_files_this_iter=0 mem_mb=1214 MB
+[2026-11-23T14:52:20Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/a1dd8d4290b7cd0d9ecaa7685d32b8b155bb514a.nq.gz triples=44825
+[2026-11-23T14:52:20Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-11-23T14:52:20Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=1804 elapsed_min=30.1 files_completed=5

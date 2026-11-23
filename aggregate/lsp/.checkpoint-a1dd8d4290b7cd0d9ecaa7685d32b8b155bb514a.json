@@ -1,0 +1,31 @@
+{
+  "commit_sha": "a1dd8d4290b7cd0d9ecaa7685d32b8b155bb514a",
+  "completed_files": [
+    "crates/primp-h2/src/frame/headers.rs",
+    "crates/primp-h2/tests/h2-tests/tests/client_request.rs",
+    "crates/primp-hyper/src/proto/h1/role.rs",
+    "crates/primp-rustls/rustls/src/server/hs.rs",
+    "crates/primp/src/imp/edge/mod.rs"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/deedy5/primp/lsp/a1dd8d4290b7cd0d9ecaa7685d32b8b155bb514a",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a1dd8d4290b7cd0d9ecaa7685d32b8b155bb514a.nq.gz",
+    "call_sites": 52634,
+    "import_statements": 2367,
+    "call_targets_resolved": 1700,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 13,
+    "implements_clauses": 1375,
+    "import_modules_denormalized": 4491,
+    "import_symbols_denormalized": 99,
+    "extends_class_denormalized": 13,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1815
+}

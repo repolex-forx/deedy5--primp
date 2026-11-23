@@ -1,0 +1,7 @@
+[2026-11-23T13:36:49Z] === AST ITERATION 1 START | repo=deedy5/primp sha=a1dd8d42 ===
+[2026-11-23T13:36:49Z] [iter=1] PHASE START: ast repo=deedy5/primp sha=a1dd8d42
+[2026-11-23T13:36:49Z] [iter=1] Building AST aggregate chunks
+[2026-11-23T13:47:20Z] [iter=1] AST chunks built count=2 triples=6093489
+[2026-11-23T13:47:20Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/a1dd8d4290b7cd0d9ecaa7685d32b8b155bb514a/.complete
+[2026-11-23T13:47:20Z] [iter=1] PHASE END: ast elapsed_s=631 elapsed_min=10.5
+[2026-11-23T13:47:20Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json

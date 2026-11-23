@@ -1,0 +1,27 @@
+[2026-11-23T18:13:20Z] === ENRICH ITERATION 9 START | repo=deedy5/primp sha=a1dd8d42 ===
+[2026-11-23T18:13:20Z] [iter=9] PHASE START: enrich repo=deedy5/primp sha=a1dd8d42 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a1dd8d42-enrich-iter-009.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a1dd8d4290b7cd0d9ecaa7685d32b8b155bb514a.nq.gz
+[2026-11-23T18:13:20Z] [iter=9] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-23T18:14:39Z] [iter=9] AST store loaded triples=6093489 load_secs=79 mem_mb=990 MB
+[2026-11-23T18:14:39Z] [iter=9] Step 2: Finding LSP targets mem_mb=990 MB
+[2026-11-23T18:14:50Z] [iter=9] LSP targets found call_sites=52634 imports=2367 extends=13 implements=1375 secs=11
+[2026-11-23T18:14:57Z] [iter=9] Loaded checkpoint partial graph triples=189165
+[2026-11-23T18:14:57Z] [iter=9] Primed enclosing-def cache from persisted triples entries=2165
+[2026-11-23T18:15:05Z] [iter=9] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=990 MB
+[2026-11-23T18:15:28Z] [iter=9] Position index built positions=396501 nodes_with_types=488659 secs=23 mem_mb=1506 MB
+[2026-11-23T18:15:28Z] [iter=9] Step 3: Starting LSP resolution mem_mb=1506 MB already_completed_types=[] already_completed_files=71
+[2026-11-23T18:15:28Z] [iter=9] Resolving target type target_type=call_site count=52634
+[2026-11-23T18:16:05Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=2.8 files_done=0 resolved=0 errors=0 current=crates/primp-h2/src/hpack/encoder.rs
+[2026-11-23T18:17:30Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=2 resolved=123 errors=0 current=crates/primp-hyper/src/body/incoming.rs
+[2026-11-23T18:18:42Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=3 resolved=284 errors=0 current=crates/primp-rustls/rustls/src/client/builder.rs
+[2026-11-23T18:19:39Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=5 resolved=415 errors=0 current=crates/primp/src/blocking/multipart.rs
+[2026-11-23T18:21:45Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=7 resolved=618 errors=0 current=crates/primp-h2/src/proto/streams/store.rs
+[2026-11-23T18:22:27Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=8 resolved=706 errors=0 current=crates/primp/tests/deflate.rs
+[2026-11-23T18:23:28Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=10.1 files_done=9 resolved=893 errors=0 current=crates/primp-h2/src/share.rs
+[2026-11-23T18:24:14Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=10.9 files_done=10 resolved=954 errors=0 current=crates/primp/src/wasm/response.rs
+[2026-11-23T18:27:02Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=13.7 files_done=12 resolved=1239 errors=0 current=crates/primp-h2/tests/h2-tests/tests/informational_responses.rs
+[2026-11-23T18:29:09Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=15.8 files_done=15 resolved=1406 errors=0 current=crates/primp-rustls/rustls/src/msgs/handshake.rs
+[2026-11-23T18:43:11Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=16 resolved=2232 errors=0 current=crates/primp-h2/src/proto/streams/prioritize.rs
+[2026-11-23T18:43:29Z] [iter=9] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=87 new_files_this_iter=16 mem_mb=1529 MB
+[2026-11-23T18:43:29Z] [iter=9] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/a1dd8d4290b7cd0d9ecaa7685d32b8b155bb514a.nq.gz triples=210183
+[2026-11-23T18:43:31Z] [iter=9] Checkpoint written, exiting with code 7
+[2026-11-23T18:43:31Z] [iter=9] PHASE END: enrich (checkpointed) elapsed_s=1810 elapsed_min=30.2 files_completed=87

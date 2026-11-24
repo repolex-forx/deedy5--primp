@@ -6967,6 +6967,615 @@
       ],
       "ast": [
         "aggregate/ast/3c843c473a940782173d59b1d0bb4bd67387eae8/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/3c843c473a940782173d59b1d0bb4bd67387eae8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "certifi",
+          "ecosystem": "PYPI",
+          "version": "2026.11.20",
+          "githubOrg": "certifi",
+          "githubRepo": "python-certifi",
+          "githubCommit": "bf6a4859116b0cba96673893e394298bbe529b1f",
+          "githubTag": "2026.11.20",
+          "githubUrl": "https://github.com/certifi/python-certifi",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "8.1.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "81653ee385f4c62ee7e64502a7b7530096553115",
+          "githubTag": "8.1.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-asyncio",
+          "ecosystem": "PYPI",
+          "version": "0.25.3",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-asyncio",
+          "githubCommit": "7c501923b00b4aeeb68d4b3b11065f0c3b5cba2c",
+          "githubTag": "v0.25.3",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "1.14.1",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubCommit": "251d12fe9f89f8d4818fd6ff1c48224e77119004",
+          "githubTag": "v1.14.1",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.9.2",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "0a393483811e0999578b5655d82e2c03238296f3",
+          "githubTag": "0.9.2",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.24.1",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "a213b368bd5bf859c2acb655bfed029e17c3b447",
+          "githubTag": "v0.24.1",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.98",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "709fe86f04878a62a29b9279f5bb96422f8bca28",
+          "githubTag": "1.0.98",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing",
+          "ecosystem": "CARGO",
+          "version": "0.1.41",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubCommit": "0ca78870815a34a345a908f48db057057e8803d2",
+          "githubTag": "tracing-0.1.41",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pyo3-log",
+          "ecosystem": "CARGO",
+          "version": "0.12.3",
+          "githubOrg": "vorner",
+          "githubRepo": "pyo3-log",
+          "githubCommit": "9686105a7759649405c6f93454a032795a124e7f",
+          "githubTag": "v0.12.3",
+          "githubUrl": "https://github.com/vorner/pyo3-log",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rquest",
+          "ecosystem": "CARGO",
+          "version": "2.1.6",
+          "githubOrg": "0x676e67",
+          "githubRepo": "rquest",
+          "githubUrl": "https://github.com/0x676e67/rquest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "encoding_rs",
+          "ecosystem": "CARGO",
+          "version": "0.8.35",
+          "githubOrg": "hsivonen",
+          "githubRepo": "encoding_rs",
+          "githubCommit": "2fa58aecf537cc76ff52c0eb3d5e9f8fda466844",
+          "githubTag": "v0.8.35",
+          "githubUrl": "https://github.com/hsivonen/encoding_rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "foldhash",
+          "ecosystem": "CARGO",
+          "version": "0.1.5",
+          "githubOrg": "orlp",
+          "githubRepo": "foldhash",
+          "githubCommit": "42461756c3760f9165c90d9626a49e36980a1e47",
+          "githubTag": "v0.1.5",
+          "githubUrl": "https://github.com/orlp/foldhash",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "indexmap",
+          "ecosystem": "CARGO",
+          "version": "2.9.0",
+          "githubOrg": "indexmap-rs",
+          "githubRepo": "indexmap",
+          "githubCommit": "1818d4140d86aeef18c515f1b060a3fa68da2708",
+          "githubTag": "2.9.0",
+          "githubUrl": "https://github.com/indexmap-rs/indexmap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.44.2",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "ec4b1d7215a3e1e91797ad3fb6ba0f7c7f3d2566",
+          "githubTag": "tokio-1.44.2",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-util",
+          "ecosystem": "CARGO",
+          "version": "0.7.14",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "html2text",
+          "ecosystem": "CARGO",
+          "version": "0.14.3",
+          "githubOrg": "jugglerchris",
+          "githubRepo": "rust-html2text",
+          "githubCommit": "4f115eaa33f4380d6f382fd60bfcdbefdd2149f1",
+          "githubTag": "0.14.3",
+          "githubUrl": "https://github.com/jugglerchris/rust-html2text/",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pythonize",
+          "ecosystem": "CARGO",
+          "version": "0.24.0",
+          "githubOrg": "davidhewitt",
+          "githubRepo": "pythonize",
+          "githubCommit": "3c7d7cef98191f7d9fcc675f72f18b7f63a3ceaa",
+          "githubTag": "v0.24.0",
+          "githubUrl": "https://github.com/davidhewitt/pythonize",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.140",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "762783414e6c4f8d670c9d87eb04913efb80d3be",
+          "githubTag": "v1.0.140",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "webpki-root-certs",
+          "ecosystem": "CARGO",
+          "version": "0.26.8",
+          "githubOrg": "rustls",
+          "githubRepo": "webpki-roots",
+          "githubUrl": "https://github.com/rustls/webpki-roots",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "http-body-util",
+          "ecosystem": "CARGO",
+          "version": "0.1.3",
+          "githubOrg": "hyperium",
+          "githubRepo": "http-body",
+          "githubUrl": "https://github.com/hyperium/http-body",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.3.1",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "8c1fb204b8594ce5cf198af8568453f9df4ed953",
+          "githubTag": "v1.3.1",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "mime",
+          "ecosystem": "CARGO",
+          "version": "0.3.17",
+          "githubOrg": "hyperium",
+          "githubRepo": "mime",
+          "githubCommit": "ce5062d216bf757a0ed3fc70f0fe255d1c8d74ae",
+          "githubTag": "v0.3.17",
+          "githubUrl": "https://github.com/hyperium/mime",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.9.0",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "96f8df65ee6b4368d91a006f9c5b4a8050abae49",
+          "githubTag": "0.9.0",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "core/src/result.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/option.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/str/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/sync.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/string.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/str/iter.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "bytes",
+          "ecosystem": "CARGO",
+          "version": "1.10.1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "bytes",
+          "githubCommit": "19d1427c971f6b619356966163459e43f797de2f",
+          "githubTag": "v1.10.1",
+          "githubUrl": "https://github.com/tokio-rs/bytes",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bytes-1.10.1/src/bytes.rs"
+        },
+        {
+          "packageName": "core/src/mem/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/fmt/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "http-body",
+          "ecosystem": "CARGO",
+          "version": "1.0.1",
+          "githubOrg": "hyperium",
+          "githubRepo": "http-body",
+          "githubCommit": "69e80eb41cae652a1a38e1ce77690be1a0e7f356",
+          "githubTag": "v1.0.1",
+          "githubUrl": "https://github.com/hyperium/http-body",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-body-1.0.1/src/frame.rs"
+        },
+        {
+          "packageName": "core/src/macros/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/env.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/fs.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/sync/lazy_lock.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "boring2",
+          "ecosystem": "CARGO",
+          "version": "4.15.11",
+          "githubOrg": "0x676e67",
+          "githubRepo": "boring2",
+          "githubUrl": "https://github.com/0x676e67/boring2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/boring2-4.15.11/src/x509/store.rs"
+        },
+        {
+          "packageName": "std/src/path.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/borrow.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/iter/traits/iterator.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/sync/poison/mutex.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/time.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "url",
+          "ecosystem": "CARGO",
+          "version": "2.5.4",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubCommit": "d77dfb467f8dd0c1fa181b3dfbc46e7cbe252021",
+          "githubTag": "v2.5.4",
+          "githubUrl": "https://github.com/servo/rust-url",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.4/src/lib.rs"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "time",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "typing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "_csv",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio.tasks",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "functools",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio.events",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/requests/sessions.py"
+        },
+        {
+          "packageName": "importlib.metadata",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "aiohttp",
+          "ecosystem": "PYPI",
+          "version": "3.14.5",
+          "githubOrg": "aio-libs",
+          "githubRepo": "aiohttp",
+          "githubCommit": "f17c631bddcfd4ec712342db28f1d3381a3fec71",
+          "githubTag": "v3.14.5",
+          "githubUrl": "https://github.com/aio-libs/aiohttp",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/aiohttp/client_reqrep.py"
+        },
+        {
+          "packageName": "asyncio.runners",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "io",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "concurrent.futures._base",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "concurrent.futures.thread",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "os",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "gzip",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "base64",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "std/src/lib.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "concurrent",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "importlib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "csv",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "sys",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        }
       ]
     }
   ],

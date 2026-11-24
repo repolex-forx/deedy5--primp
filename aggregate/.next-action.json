@@ -1,8 +1,8 @@
 {
-  "next_action": "enrich",
-  "phase_completed": "enrich_checkpoint",
-  "commit_sha": "b548effe3b7123ce5d943212bf15d1182b072188",
-  "ts": "2026-11-24T02:35:46Z",
-  "files_completed": 98,
-  "call_targets_resolved": 14652
+  "next_action": "ast",
+  "phase_completed": "parse",
+  "commit_sha": "3c843c473a940782173d59b1d0bb4bd67387eae8",
+  "ts": "2026-11-24T03:04:45Z",
+  "blobs_parsed": 17,
+  "blobs_skipped": 8
 }

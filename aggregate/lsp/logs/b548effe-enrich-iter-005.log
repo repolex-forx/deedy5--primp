@@ -1,0 +1,35 @@
+[2026-11-24T02:05:43Z] === ENRICH ITERATION 5 START | repo=deedy5/primp sha=b548effe ===
+[2026-11-24T02:05:43Z] [iter=5] PHASE START: enrich repo=deedy5/primp sha=b548effe runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b548effe-enrich-iter-005.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b548effe3b7123ce5d943212bf15d1182b072188.nq.gz
+[2026-11-24T02:06:14Z] [iter=5] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-24T02:07:06Z] [iter=5] AST store loaded triples=4625318 load_secs=51 mem_mb=952 MB
+[2026-11-24T02:07:06Z] [iter=5] Step 2: Finding LSP targets mem_mb=952 MB
+[2026-11-24T02:07:15Z] [iter=5] LSP targets found call_sites=33827 imports=2104 extends=26 implements=1311 secs=9
+[2026-11-24T02:07:19Z] [iter=5] Loaded checkpoint partial graph triples=105024
+[2026-11-24T02:07:19Z] [iter=5] Primed enclosing-def cache from persisted triples entries=1992
+[2026-11-24T02:07:26Z] [iter=5] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=952 MB
+[2026-11-24T02:07:43Z] [iter=5] Position index built positions=306371 nodes_with_types=369681 secs=17 mem_mb=1199 MB
+[2026-11-24T02:07:43Z] [iter=5] Step 3: Starting LSP resolution mem_mb=1199 MB already_completed_types=[] already_completed_files=66
+[2026-11-24T02:07:43Z] [iter=5] Resolving target type target_type=call_site count=33827
+[2026-11-24T02:08:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=2.6 files_done=0 resolved=0 errors=0 current=crates/primp-reqwest/crates/primp-rustls/src/crypto/aws_lc_rs/ticketer.rs
+[2026-11-24T02:08:53Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=1 resolved=139 errors=0 current=crates/primp-reqwest/crates/primp-hyper-util/src/client/legacy/connect/http.rs
+[2026-11-24T02:10:59Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=5.3 files_done=2 resolved=538 errors=0 current=crates/primp-reqwest/crates/primp-hyper/src/body/incoming.rs
+[2026-11-24T02:11:48Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=3 resolved=691 errors=0 current=crates/primp-reqwest/crates/primp-hyper/src/proto/h1/io.rs
+[2026-11-24T02:13:34Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=4 resolved=941 errors=0 current=crates/primp-reqwest/crates/primp-rustls/src/common_state.rs
+[2026-11-24T02:15:34Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=5 resolved=1136 errors=0 current=crates/primp-reqwest/crates/primp-h2/src/frame/headers.rs
+[2026-11-24T02:17:37Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=6 resolved=1434 errors=0 current=crates/primp-reqwest/crates/primp-hyper/src/proto/h1/dispatch.rs
+[2026-11-24T02:19:06Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=7 resolved=1625 errors=0 current=crates/primp-reqwest/tests/redirect.rs
+[2026-11-24T02:20:01Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=9 resolved=1843 errors=0 current=crates/primp-reqwest/crates/primp-rustls/src/client/test.rs
+[2026-11-24T02:21:45Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=10 resolved=2051 errors=0 current=crates/primp-reqwest/tests/deflate.rs
+[2026-11-24T02:22:51Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=17.1 files_done=13 resolved=2306 errors=0 current=crates/primp-reqwest/src/blocking/multipart.rs
+[2026-11-24T02:24:08Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=17 resolved=2467 errors=0 current=crates/primp-reqwest/crates/primp-rustls/src/crypto/aws_lc_rs/tls12.rs
+[2026-11-24T02:25:00Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=18 resolved=2596 errors=0 current=crates/primp-reqwest/crates/primp-hyper/src/upgrade.rs
+[2026-11-24T02:26:59Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=21.3 files_done=21 resolved=2912 errors=0 current=crates/primp-reqwest/src/imp/edge/mod.rs
+[2026-11-24T02:27:48Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=22 resolved=3047 errors=0 current=crates/primp-reqwest/src/retry.rs
+[2026-11-24T02:30:10Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=24 resolved=3450 errors=0 current=crates/primp-reqwest/tests/brotli.rs
+[2026-11-24T02:31:39Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=25.9 files_done=27 resolved=3662 errors=0 current=crates/primp-reqwest/tests/support/server.rs
+[2026-11-24T02:34:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=28.6 files_done=30 resolved=4125 errors=0 current=crates/primp-reqwest/crates/primp-rustls/src/msgs/message/outbound.rs
+[2026-11-24T02:35:11Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=29.5 files_done=31 resolved=4246 errors=0 current=crates/primp-reqwest/crates/primp-rustls/src/crypto/aws_lc_rs/pq/hybrid.rs
+[2026-11-24T02:35:45Z] [iter=5] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=98 new_files_this_iter=32 mem_mb=1239 MB
+[2026-11-24T02:35:45Z] [iter=5] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/b548effe3b7123ce5d943212bf15d1182b072188.nq.gz triples=145192
+[2026-11-24T02:35:46Z] [iter=5] Checkpoint written, exiting with code 7
+[2026-11-24T02:35:46Z] [iter=5] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=98

@@ -2,15 +2,29 @@
   "commit_sha": "b548effe3b7123ce5d943212bf15d1182b072188",
   "completed_files": [
     "crates/primp-reqwest/crates/primp-h2/src/frame/data.rs",
+    "crates/primp-reqwest/crates/primp-h2/src/hpack/decoder.rs",
+    "crates/primp-reqwest/crates/primp-h2/src/proto/streams/recv.rs",
+    "crates/primp-reqwest/crates/primp-h2/src/proto/streams/state.rs",
     "crates/primp-reqwest/crates/primp-h2/src/proto/streams/streams.rs",
+    "crates/primp-reqwest/crates/primp-hyper-util/src/client/legacy/client.rs",
+    "crates/primp-reqwest/crates/primp-hyper-util/src/client/proxy/matcher.rs",
     "crates/primp-reqwest/crates/primp-hyper-util/src/common/lazy.rs",
     "crates/primp-reqwest/crates/primp-hyper/src/common/buf.rs",
     "crates/primp-reqwest/crates/primp-hyper/src/proto/h1/conn.rs",
+    "crates/primp-reqwest/crates/primp-hyper/src/proto/h1/role.rs",
+    "crates/primp-reqwest/crates/primp-rustls/src/conn.rs",
+    "crates/primp-reqwest/crates/primp-rustls/src/crypto/aws_lc_rs/sign.rs",
     "crates/primp-reqwest/crates/primp-rustls/src/hash_hs.rs",
     "crates/primp-reqwest/crates/primp-rustls/src/msgs/base.rs",
     "crates/primp-reqwest/crates/primp-rustls/src/msgs/handshake.rs",
+    "crates/primp-reqwest/crates/primp-rustls/src/msgs/persist.rs",
+    "crates/primp-reqwest/crates/primp-rustls/src/server/handy.rs",
+    "crates/primp-reqwest/crates/primp-rustls/src/server/test.rs",
     "crates/primp-reqwest/src/connect.rs",
     "crates/primp-reqwest/tests/client.rs",
+    "crates/primp-reqwest/tests/multipart.rs",
+    "crates/primp-reqwest/tests/timeouts.rs",
+    "crates/primp-reqwest/tests/zstd.rs",
     "src/lib.rs"
   ],
   "completed_types": [],
@@ -19,7 +33,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/b548effe3b7123ce5d943212bf15d1182b072188.nq.gz",
     "call_sites": 33827,
     "import_statements": 2104,
-    "call_targets_resolved": 2725,
+    "call_targets_resolved": 5390,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -33,5 +47,5 @@
     "extends_class_denormalized": 26,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1802
+  "elapsed_seconds": 1803
 }
